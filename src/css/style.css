@@ -1,0 +1,192 @@
+.primario {
+    border: 1px solid;
+    display: flex;
+    margin: 10px;
+}
+
+.primario .logo {
+    width: 140px;
+    height: 120px;
+}
+
+.primario h1 {
+    width: 100%;
+    display: flex;
+}
+
+.primario h1 img {
+    width: 400px;
+    margin: auto;
+    align-items: center;
+}
+
+.primario a {
+    margin: auto;
+    font-family: 'Brush King', sans-serif;
+    padding: 10px;
+}
+
+.cardapio {
+
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+    margin: 10px;  
+}
+ .cardapio div{
+    display: flex;
+    
+ }
+.b1{
+    border: 1px solid;
+    width: 500px;
+    height: 300px;
+    padding: 10px;
+    margin: 10px;
+}
+.b1 .b1-sec {
+    display: grid;
+    margin: auto;
+    height: 200px;
+    padding: 20px;
+ }
+.b1 h1{
+    display: flex;
+    margin: auto;
+    align-items: center;
+    width: 100%;
+    font-family: 'Brush King', sans-serif;
+}
+.b1 p{
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    font-family: sans-serif;
+}
+.b1 img {
+    border-radius: 30px;
+    margin: auto;
+    width: 230px;
+    height: 200px;
+}
+.b1 button {
+    background-color: transparent;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 165px;
+}
+
+.b1 button:active{
+    background-color: rgb(58, 211, 38);
+}
+
+.b1 .carrinho {
+    width: 100%;
+    height: 40px;
+}
+
+/* ---------------------------------------------------------- */
+
+.b2{
+    border: 1px solid;
+    width: 500px;
+    height: 300px;
+    padding: 10px;
+    margin: 10px;
+}
+.b2 .b2-sec {
+    display: grid;
+    margin: auto;
+    height: 200px;
+    padding: 20px;
+ }
+.b2 h1{
+    display: flex;
+    margin: auto;
+    align-items: center;
+    width: 100%;
+    font-family: 'Brush King', sans-serif;
+}
+.b2 p{
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    font-family: sans-serif;
+}
+.b2 img {
+    border-radius: 30px;
+    margin: auto;
+    width: 230px;
+    height: 200px;
+}
+.b2 button {
+    background-color: transparent;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 165px;
+}
+
+.b2 button:active{
+    background-color: rgb(58, 211, 38);
+}
+
+.b2 .carrinho {
+    width: 100%;
+    height: 40px;
+}
+
+/* ---------------------------------------------------------- */
+
+.b3{
+    border: 1px solid;
+    width: 500px;
+    height: 300px;
+    padding: 10px;
+    margin: 10px;
+}
+.b3 .b3-sec {
+    display: grid;
+    margin: auto;
+    height: 200px;
+    padding: 20px;
+ }
+.b3 h1{
+    display: flex;
+    margin: auto;
+    align-items: center;
+    width: 100%;
+    font-family: 'Brush King', sans-serif;
+}
+.b3 p{
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    font-family: sans-serif;
+}
+.b3 img {
+    border-radius: 30px;
+    margin: auto;
+    width: 230px;
+    height: 200px;
+}
+.b3 button {
+    background-color: transparent;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 165px;
+}
+
+.b3 button:active{
+    background-color: rgb(58, 211, 38);
+}
+
+.b3 .carrinho {
+    width: 100%;
+    height: 40px;
+}
