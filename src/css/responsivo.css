@@ -1,0 +1,7 @@
+@media(max-width: 1600px){
+    .cardapio{
+        flex-wrap: wrap;
+        display: flex;
+        margin: 10px;
+    }
+}
