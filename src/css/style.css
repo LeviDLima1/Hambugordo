@@ -1,62 +1,65 @@
+
+/* Configura a imagem de fundo do cabeçalho */
 .primario {
     background-image: image-set("/src/imagens/4492606.jpg");
     display: flex;
     margin: 10px;
 }
-
+/* Configura a logo no cabeçalho*/
 .primario .logo {
     width: 140px;
     height: 120px;
 }
-
+/* Configura o nome da loja no cabeçalho*/
 .primario h1 {
     width: 100%;
     display: flex;
 }
-
+/* Configura a imagem do nome da loja no cabeçalho */
 .primario h1 img {
     width: 400px;
     margin: auto;
     align-items: center;
 }
-
+/* Configura o direcionador do cardápio */
 .primario a {
     background-image: linear-gradient(rgb(255, 196, 0), rgb(255, 102, 0) 80%);
-
-
     margin: auto;
     padding: 10px;
     position: relative;
     right: 100px;
-    
     font-family: 'Brush King', sans-serif;
     background-clip: text;
     -webkit-text-fill-color: transparent;
-    
 }
-
-
+/* A partir daqui, sera configurado o cardapio */
 .cardapio {
     display: flex;
     position: relative;
     justify-content: space-between;
     margin: 10px;
 }
+
+/* Ajuste de todas as divs dentro do cardapio */
  .cardapio div{
     display: flex;
     width: 480px;
     position: relative;
  }
+ /* Divs separada por classe */
 .b1, .b2, .b3{
     display: block;
     padding: 10px;
     margin: 10px;
 }
+/* Div secundaria para ajustar o titulo do produto e a descrição */
 .b1 .b1-sec, .b2 .b2-sec, .b3 .b3-sec {
     display: grid;
     margin: auto;
     padding: 20px;
  }
+
+ /* Titulo do produto */
 .b1 h1, .b2 h1, .b3 h1{
     display: flex;
     margin: auto;
@@ -64,6 +67,7 @@
     width: 100%;
     font-family: 'Brush King', sans-serif;
 }
+/* Descrição do produto */
 .b1 p, .b2 p, .b3 p{
     margin-top: 30px;
     width: 100%;
@@ -71,31 +75,12 @@
     position: static;
     font-family: sans-serif;
 }
-.b1 img, .b2 img, .b3 img {
+/* Imagem do produto */
+.burguer1 , .burguer2, .burguer3 {
     border-radius: 30px;
+    border: 3px solid wheat;
+    box-shadow: 3px 5px 10px ;
     margin: auto;
     width: 230px;
     height: 200px;
-}
-.b1 button, .b2 button, .b3 button {
-    background-color: transparent;
-    width: 50px;
-    height: 50px;
-    cursor: pointer;
-    margin-top: 20px;
-    margin-left: 165px;
-}
-
-.b1 button:active, .b2 button:active, .b3 button:active{
-    background-color: rgb(58, 211, 38);
-}
-
-.b1 .carrinho, .b2 .carrinho, .b3 .carrinho {
-    width: 100%;
-    height: 40px;
-}
-
-.b1 .burguer1, .b2 .burguer2, .b3 .burguer3{
-    border: 3px solid wheat;
-    box-shadow: 3px 5px 10px ;
 }
