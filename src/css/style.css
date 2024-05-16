@@ -12,25 +12,28 @@
 }
 /* Configura o nome da loja no cabeçalho*/
 .primario h1 {
-    width: 100%;
+    width: 80%;
     display: flex;
+    position: relative;
 }
 /* Configura a imagem do nome da loja no cabeçalho */
 .primario h1 img {
     width: 400px;
     margin: auto;
     align-items: center;
+    position: relative;
 }
 /* Configura o direcionador do cardápio */
 .primario a {
     background-image: linear-gradient(rgb(255, 196, 0), rgb(255, 102, 0) 80%);
+    width: 200px;
     margin: auto;
     padding: 10px;
     position: relative;
-    right: 100px;
     font-family: 'Brush King', sans-serif;
     background-clip: text;
     -webkit-text-fill-color: transparent;
+
 }
 /* A partir daqui, sera configurado o cardapio */
 .cardapio {
