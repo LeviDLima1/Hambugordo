@@ -39,6 +39,7 @@
 .cardapio {
     width: 95%;
     display: flex;
+    flex-wrap: wrap;
     margin: auto;
     position: relative;
     border: 1px solid;
@@ -48,7 +49,7 @@
 /* Ajuste de todas as divs dentro do cardapio */
  .cardapio div{
     display: flex;
-    width: 480px;
+    width: auto;
     position: relative;
     padding: 10px;
     margin: 10px;
@@ -57,7 +58,9 @@
 .b1, .b2{
     background: linear-gradient(90deg, brown, black);
     border-radius: 30px;
-    
+    display: flex;
+    position: relative;
+    margin: auto;
     
 }
 /* Div secundaria para ajustar o titulo do produto e a descrição */
@@ -66,8 +69,8 @@
     border-radius: 30px;
     display: grid;
     position: static;
-    width: auto;
-    height: 190px;
+    width: 140px;
+    height: 185px;
     margin: auto;
     margin-left: 10px;
  }
@@ -98,6 +101,6 @@
     border: 3px solid wheat;
     box-shadow: 3px 5px 10px ;
     margin: auto;
-    width: 49%;
+    width: 190px;
     height: 200px;
 }
