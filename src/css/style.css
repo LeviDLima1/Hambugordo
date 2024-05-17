@@ -37,8 +37,9 @@
 }
 /* A partir daqui, sera configurado o cardapio */
 .cardapio {
-    width: 50%;
+    width: 95%;
     display: flex;
+    margin: auto;
     position: relative;
     border: 1px solid;
     border-radius: 10px;
@@ -66,10 +67,9 @@
     display: grid;
     position: static;
     width: auto;
-    height: 130px;
+    height: 190px;
     margin: auto;
     margin-left: 10px;
-    padding: 20px;
  }
 
  /* Titulo do produto */
@@ -98,6 +98,6 @@
     border: 3px solid wheat;
     box-shadow: 3px 5px 10px ;
     margin: auto;
-    width: 50%;
+    width: 49%;
     height: 200px;
 }
