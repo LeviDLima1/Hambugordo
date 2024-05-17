@@ -1,24 +1,61 @@
-@media(max-width: 1600px){
+@media(max-width: 414px){
+        .primario {
+        width: 95%;
+        background-color: antiquewhite;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .primario .logo {
+        width: 80px;
+        height: 80px;
+    }
+    .primario h1{
+        margin: auto;
+        width: auto;
+    }
+    .primario h1 img {
+        width: 200px;
+        height: 70px;
+    }
+    .primario a {
+        width: auto;
+        font-size: 14px;
+        line-height: 1.5;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+
+    }
     .cardapio {
         flex-wrap: wrap;
         display: flex;
         margin: 10px;
+        width: 95%;
     }
-    .primario a {
-        font-size: 1rem;
-        line-height: 1.5;
-        text-overflow: ellipsis;
-        white-space: nowrap;
-        overflow: hidden;
-    }
-}
 
-@media(max-width: 1366px){
-    .primario a {
-        font-size: 1rem;
-        line-height: 1.5;
-        text-overflow: ellipsis;
-        white-space: nowrap;
-        overflow: hidden;
+    .cardapio div{
+        height: 220px;
+    }
+
+    .cardapio .b1 .burguer1, .burguer2 {
+        width: 165px;
+        height: 183px;
+    }
+
+    .cardapio .b1-sec {
+        height: 150px;
+
+    }
+    .cardapio .b2-sec {
+        height: 150px;
+
+    }
+
+    .cardapio .b2-sec p {
+        display: flex;
+        align-items: center;
+        justify-content: center;        
     }
 }
