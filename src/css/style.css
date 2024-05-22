@@ -104,3 +104,36 @@
     width: 190px;
     height: 200px;
 }
+
+
+.carrinho {
+    width: 95%;
+    margin: auto;
+    margin-top: 290px;
+    position: relative;
+    display: flex;
+    justify-content: right;
+    align-items: baseline;
+    padding-right: 20px;
+
+}
+.carrinho button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 40px;
+    background: none;
+    border-radius: 30px;
+    transition: 10ms;
+}
+
+.carrinho button img {
+    width: 30px;
+    height: 30px;
+}
+
+.carrinho button:hover{
+    background-color: antiquewhite;
+    box-shadow: 5px 7px 5px;
+}
