@@ -101,10 +101,38 @@
 }
 .principal-header .second-header button:hover{
     background: white;
-    border: 2px solid;
+    border: 1px solid;
 }
 
 .principal-header .second-header button:active{
     background-color: rgb(175, 175, 175);
+}
+
+.box-home {
+    background-color: aqua;
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 300px;
+}
+
+
+.box-home .bem-vindo {
+    background-color: aquamarine;
+    width: 800px;
+    display: flex;
+
+}
+
+.bem-vindo .bnt-nextback {
+    background-color: bisque;
+}
+
+.bem-vindo .text-second-header {
+    background-color: brown;
+    position: relative;
+    display: flex;
+    width: 500px;
+    height: 200px;
 }
 
