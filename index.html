@@ -1,8 +1,16 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+    <!-- FONTES -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jaini&display=swap" rel="stylesheet">
+
+
+
     <link rel="stylesheet" href="src/css/reset.css">
     <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/responsivo.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
@@ -14,7 +22,7 @@
                 <div class="nav-bar">
                     <div class="nav-bar-div">
                         <button>
-                            <img src="src/Imagens/nav_bar.png" alt="">
+                            <p>☰</p>
                         </button>
                     </div>
                     <div class="pesquisar-CEP">
@@ -24,14 +32,18 @@
             </nav>
             
             <div class="second-header">
-                <div class="barra-pesquisa">
-                    <button>
-                        <img src="src/Imagens/lupa.png" alt="">
+                <div class="barra-pesquisa js-search-box">
+                    <button class="open-search js-btn-search">
+                        <ion-icon name="search-outline"></ion-icon>
+                    </button>
+                    <input type="search" placeholder="Pesquise aqui">
+                    <button class="close-search js-close">
+                        <ion-icon name="close-outline"></ion-icon>
                     </button>
                 </div>
                 <div class="carrinho">
-                    <button>
-                        <img src="src/Imagens/carrinho-de-compras.png" alt="">
+                    <button class="open-car">
+                        <ion-icon name="cart-outline"></ion-icon>
                     </button>
                 </div>
             </div>
@@ -40,7 +52,7 @@
 
     <div class="apresentacao">
         <div class="logo">
-            <img src="" alt="">
+            <img src="src/imagens/Logo-Hambugordo.png" alt="">
         </div>
         <div class="nome-loja">
             <p>Hambugordo</p>
@@ -61,27 +73,30 @@
             
             <div class="container-produtos">
 
-                <div class="produto" id="produto1">
+                <div class="produto">
                     <div class="especif-produto">
-                        <div class="nome-produto">Combo 1</div>
-                        <div class="descricao-produto">Descrição do Produto 1</div>
-                        <div class="preco-produto">Preço</div>
+                        <div class="nome-produto"></div>
+                        <div class="descricao-produto"></div>
+                        <div class="preco-produto"></div>
                     </div>
-                    <div class="foto-produto"><img src="" alt=""></div>
+                    <div class="foto-produto"><img src="" /></div>
                 </div>
-
-                <div class="produto" id="produto2">
-                    <div class="especif-produto">
-                        <div class="nome-produto"><h1>Combo 2</h1></div>
-                        <div class="descricao-produto">Descrição do Produto 1</div>
-                        <div class="preco-produto">Preço</div>
-                    </div>
-                    <div class="foto-produto"><img src="" alt=""></div>
-                </div>
+                <a href="">
+                    
+                </a>
             </div>
 
             
         </div>
     </div>
+
+    <div class="hambuWindowArea">
+        
+    </div>
+    
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="src/js/hamburguers.js"></script>
+    <script src="src/js/index.js"></script>
 </body>
 </html>

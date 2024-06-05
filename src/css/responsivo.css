@@ -1,5 +1,72 @@
-@media(max-width: 490px){
+@media(max-width: 1200px) {
+    .nav-bar {
+        .pesquisar-CEP {
+             .buscar {
+                font-size: 15px;
+             }
+        }
+    }
+
+}
+
+@media(max-width: 600px) {
+    .nav-bar {
+        .pesquisar-CEP {
+             .buscar {
+                font-size: 11px;
+             }
+        }
+    }
+
+    .combos {
+        .header-combo {
+            .combo-titulo{
+                font-size: 20px;
+            }
+        }
+    }
+}
+
+@media(max-width: 400px){
+    .nav-bar {
+        .pesquisar-CEP {
+             .buscar {
+                font-size: 11px;
+             }
+        }
+    }
+
+    .combos {
+        .header-combo {
+            .combo-titulo{
+                background-color: aqua;
+                li {
+                    font-size: 13px;
+                    font-weight: bold;
+                    font-family: sans-serif;
+                }
+            }
+        }
+    }
+ 
 }
 
 @media(max-width: 360px){
+    .nav-bar {
+        .pesquisar-CEP {
+             .buscar {
+                font-size: 10px;
+             }
+        }
+    }
+
+    .combos {
+        .header-combo {
+            .combo-titulo{
+                font-size: 20px;
+            }
+        }
+    }
+
 }
+
