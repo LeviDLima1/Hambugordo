@@ -31,6 +31,15 @@ hambuJson.map((item, index) => {
     })
 })
 
+addJson.map((item, index) => {
+    console.log(item)
+    let nomeCombo = document.querySelector('.itens-add').cloneNode(true)
+
+    document.querySelector('.container-add').append(nomeCombo)
+    
+    
+})
+
 
 
         

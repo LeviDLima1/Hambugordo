@@ -346,5 +346,175 @@
             }
         }
     }
+}
 
+.hambuWindow-Area {
+    border: 3px solid rgb(228, 64, 64);
+    border-radius: 30px;
+    max-width: 400px;
+    height: auto;
+    margin: 30px auto;
+
+    .hambuWindow-Header {
+        width: 100%;
+        height: 40px;
+        background-color: rgb(231, 231, 231);
+        border-radius: 27px 27px  0 0;
+        display: flex;
+        position: relative;
+        justify-content: left;
+        align-items: center;
+        
+        .hambuWindow-Back {
+            width: 30px;
+            height: 30px;
+            display: flex;
+            align-items: center;
+            justify-self: center;
+            margin: 0 10px;
+            transition: 200ms;
+
+            ion-icon {
+                width: 30px;
+                height: 30px;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+
+        .hambuWindow-Back:hover {
+            background-color: white;
+            border: 3px solid rgb(228, 64, 64);
+            border-radius: 20px;
+            cursor: pointer;
+        }
+
+        .hambuWindow-Back:active {
+            background-color: rgb(175, 175, 175);
+
+        }
+
+        .hambuCombo-Name {
+            
+        }
+    }
+
+    .Container-Img-Description {
+        background-color: rgb(100, 100, 100);
+        width: 100%;
+        height: auto;
+
+        .hambuCombo-Img {
+            background-color: rgb(175, 175, 175);
+            width: 100%;
+            height: 300px;
+        }
+        .hambu-Combo-Description {
+            width: 100%;
+            height: auto;
+            background-color: rgb(175, 175, 175);
+        }
+    }
+
+    .hambuHeader-Carne {
+        background-color: rgb(228, 64, 64);
+        width: 100%;
+        height: 50px;
+        display: grid;
+        justify-content: left;
+        align-items: center;
+
+        .Ponto-da-Carne {
+            font-weight: bold;
+            font-family: sans-serif;
+            font-size: 20px;
+            margin: 0 10px;
+            color: white;
+        }
+
+        .Option {
+            font-size: 14px;
+            font-family: sans-serif;
+            margin: 0 10px;
+            color: white;
+        }
+    }
+    
+    .Escolha-do-Ponto {
+        display: grid;
+        font-family: sans-serif;
+        font-size: 20px;
+        align-items: center;
+        margin: 10px 0;
+
+        div {
+            width: auto;
+            height: 30px;
+            justify-content: space-between;
+            align-items: center;
+            display: flex;
+            margin: 5px 10px;
+            border: 3px solid rgb(228, 64, 64);
+
+            h1{
+                color: rgb(100, 100, 100);
+                margin: 0 10px;
+            }
+
+            input {
+                margin: auto 10px;
+                width: 20px;
+                height: 20px;
+            }
+        }
+    }
+
+    .header-add {
+        background-color: rgb(228, 64, 64);
+        width: 100%;
+        height: 50px;
+        display: grid;
+        justify-content: left;
+        align-items: center;
+        font-family: sans-serif;
+
+        .adicional {
+            margin: 0 10px;
+            color: white;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .maximo {
+            margin: 0 10px;
+            color: white;
+            font-size: 15px;
+        }
+    }
+
+    .container-add{
+        width: 100%;
+        height: auto;
+    
+        .itens-add {
+            background-color: rgb(100, 100, 100);
+            width: auto;
+            height: auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border: 3px solid rgb(228, 64, 64);
+            margin: 10px;
+            .item-add-name {
+                display: grid;
+                width: auto;
+                height: 40px;
+                margin: 0 10px;
+            }
+
+            input {
+                margin: 0 10px;
+            }
+        }
+    }
 }
