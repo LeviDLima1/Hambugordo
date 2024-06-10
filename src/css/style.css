@@ -1,25 +1,3 @@
-.header-top {
-    background-color: rgb(228, 64, 64);
-    width: 100%;
-    height: 70px;
-}
-
-.header-top .principal-header {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.header-top .principal-header .nav-header {
-    background-color: rgb(228, 64, 64);
-    width: 300px;
-    height: 57%;
-    display: flex;
-
-    ;
-}
 .nav-header .nav-bar {
     display: flex;
     width: 100%;
@@ -73,87 +51,130 @@
     background-color: rgb(175, 175, 175);
 }
 
-.second-header {
 
-    width: 300px;
-    display: flex;
-    justify-content: space-between;
-    .barra-pesquisa {
-        position: relative;
-        width: 40px;
-        height: 40px;
+.header-top {
+    background-color: rgb(228, 64, 64);
+    width: 100%;
+    height: 70px;
+
+    .principal-header {
+        width: 100%;
+        height: 100%;
         display: flex;
-        justify-content: space-between;
         align-items: center;
-        transition: 0.5s;
-        overflow: hidden;
-        .open-search {
-            position: relative;
-            min-width: 40px;
-            height: 40px;
+
+        .carrinho {
+            width: 100%;
+            height: 50px;
             display: flex;
-            justify-content: center;
+            justify-content: right;
             align-items: center;
-
-            background: transparent;
-            border: none;
-            border-radius: 50%;
-            transition: 200ms;
-
-            color: white;
-            ion-icon {
-                width: 25px;
-                height: 25px;
+        
+            .open-car {
+                width: 50px;
+                height: 50px;
+                display: flex;
+                margin: auto 20px;
+                align-items: center;
+                justify-content: center;
+                border: none;
+                border-radius: 30px;
+                background-color: transparent;
+                color: white;
+                
+                ion-icon {
+                    width: 50px;
+                    height: 50px;
+                }
             }
 
-        }
-        .open-search:hover{
-            cursor: pointer;
-            background: white;
-            border: 1px solid;
-            color: black;
-        }
-
-        input {
-            width: auto;
-            height: 30px;
-            border: none;
-            border-radius: 20px;
-            padding: 0 10px;
-        }
-
-        .close-search {
-            position: relative;
-            min-width: 40px;
-            height: 40px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-
-            background: transparent;
-            border: none;
-            border-radius: 50%;
-            transition: 200ms;
-
-            color: white;
-            ion-icon {
-                width: 25px;
-                height: 25px;
+            .open-car:hover {
+                border: 1px solid black;
+                color: black;
+                background-color: white;
             }
+            
         }
-        .close-search:hover {
-            cursor: pointer;
-            background: white;
-            border: 1px solid;
-            color: black;
-        }
+        .second-header {
+            width: 300px;
+            height: auto;
+            display: flex;
+            justify-content: space-between;
+            margin: auto 30px;
+            .barra-pesquisa {
+                position: relative;
+                width: 40px;
+                height: 40px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                transition: 0.5s;
+                overflow: hidden;
+                .open-search {
+                    position: relative;
+                    min-width: 40px;
+                    height: 40px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    background: transparent;
+                    border: none;
+                    border-radius: 50%;
+                    transition: 200ms;
+                    color: white;
+                    ion-icon {
+                        width: 25px;
+                        height: 25px;
+                    }
+        
+                }
+                .open-search:hover{
+                    cursor: pointer;
+                    background: white;
+                    border: 1px solid;
+                    color: black;
+                }
+        
+                input {
+                    width: auto;
+                    height: 30px;
+                    border: none;
+                    border-radius: 20px;
+                    padding: 0 10px;
+                }
+        
+                .close-search {
+                    position: relative;
+                    min-width: 40px;
+                    height: 40px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    background: transparent;
+                    border: none;
+                    border-radius: 50%;
+                    transition: 200ms;
+                    color: white;
+                    ion-icon {
+                        width: 25px;
+                        height: 25px;
+                    }
+                }
+                .close-search:hover {
+                    cursor: pointer;
+                    background: white;
+                    border: 1px solid;
+                    color: black;
+                }
+            }
+            
+            .barra-pesquisa.active {
+                width: 360px;
+            }
+        
+        }        
     }
     
-    .barra-pesquisa.active {
-        width: 360px;
-    }
-
-
 }
 
 .apresentacao{
@@ -163,21 +184,21 @@
     box-shadow: 1px 1px 10px;
 
     .logo{
-        width: 100px;
-        height: 100px;
-        margin: 60px auto 0 auto;
+        width: 160px;
+        height: 160px;
+        margin: 40px auto 0 auto;
         border: 3px solid rgb(228, 64, 64);
 
         img{
-            width: 100px;
-            height: 100px;
+            width: 160px;
+            height: 160px;
         }
     }
 
     .nome-loja {
         width: 200px;
         height: 30px;
-        margin: -50px auto;
+        margin: -20px auto;
         border: 3px solid rgb(228, 64, 64);
         border-radius: 30px;
         display: flex;
@@ -247,7 +268,6 @@
                     transition: 400ms;
                     img{
                         width: 30px;
-                        
                     }
 
                 }
@@ -350,16 +370,30 @@
 
 .hambuWindow-Area {
     border: 3px solid rgb(228, 64, 64);
+    background-color: rgb(231, 231, 231);
     border-radius: 30px;
-    max-width: 400px;
-    height: auto;
-    margin: 30px auto;
+    width: 400px;
+    max-height: 750px;
+    margin: auto;
+    font-family: sans-serif;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    display: none;
+    transition: all ease .5s;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
 
     .hambuWindow-Header {
         width: 100%;
         height: 40px;
         background-color: rgb(231, 231, 231);
         border-radius: 27px 27px  0 0;
+        font-size: 20px;
+        font-weight: bolder;
         display: flex;
         position: relative;
         justify-content: left;
@@ -395,24 +429,33 @@
         }
 
         .hambuCombo-Name {
-            
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            margin-top: 2px;
         }
     }
 
     .Container-Img-Description {
-        background-color: rgb(100, 100, 100);
         width: 100%;
         height: auto;
-
+        
         .hambuCombo-Img {
-            background-color: rgb(175, 175, 175);
             width: 100%;
             height: 300px;
+
+            img{
+                width: 400px;
+                height: 300px;
+            }
         }
         .hambu-Combo-Description {
-            width: 100%;
+            width: auto;
             height: auto;
-            background-color: rgb(175, 175, 175);
+
+            padding: 8px;
+            font-size: 18px;
         }
     }
 
@@ -450,71 +493,64 @@
         div {
             width: auto;
             height: 30px;
-            justify-content: space-between;
-            align-items: center;
             display: flex;
             margin: 5px 10px;
             border: 3px solid rgb(228, 64, 64);
-
-            h1{
-                color: rgb(100, 100, 100);
-                margin: 0 10px;
             }
 
-            input {
+            label{
+                width: 100%;
+                height: 100%;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
                 margin: auto 10px;
-                width: 20px;
-                height: 20px;
+                
+                input {
+                    width: 20px;
+                    height: 20px;
+                    margin: auto 1px;
+                }
             }
         }
     }
-
-    .header-add {
-        background-color: rgb(228, 64, 64);
-        width: 100%;
+    
+    .enviar-carrinho {
+        width: 120px;
         height: 50px;
-        display: grid;
-        justify-content: left;
-        align-items: center;
-        font-family: sans-serif;
-
-        .adicional {
-            margin: 0 10px;
-            color: white;
+        display: flex;
+        margin: 0 auto 15px auto;
+        
+        button {
+            width: 100%;
+            height: 100%;
+            border: 2px solid rgb(228, 64, 64);
+            border-radius: 20px;
             font-size: 20px;
             font-weight: bold;
+            transition: 0.200s;
+            
         }
 
-        .maximo {
-            margin: 0 10px;
-            color: white;
-            font-size: 15px;
+        button:active{
+            background-color: rgb(175, 175, 175);
         }
     }
 
-    .container-add{
+
+.bnt-cadastro {
+    background-color: aqua;
+    position: fixed;
+    display: flex;
+    margin: auto;
+    left: 1700px;
+    top: 850px;
+    bottom: 0;
+    right: 0;
+    width: 150px;
+    height: 60px;
+    button{
         width: 100%;
         height: auto;
-    
-        .itens-add {
-            background-color: rgb(100, 100, 100);
-            width: auto;
-            height: auto;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            border: 3px solid rgb(228, 64, 64);
-            margin: 10px;
-            .item-add-name {
-                display: grid;
-                width: auto;
-                height: 40px;
-                margin: 0 10px;
-            }
-
-            input {
-                margin: 0 10px;
-            }
-        }
     }
 }

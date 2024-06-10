@@ -41,11 +41,11 @@
                         <ion-icon name="close-outline"></ion-icon>
                     </button>
                 </div>
-                <div class="carrinho">
-                    <button class="open-car">
-                        <ion-icon name="cart-outline"></ion-icon>
-                    </button>
-                </div>
+            </div>
+            <div class="carrinho">
+                <button class="open-car">
+                    <ion-icon name="cart-outline"></ion-icon>
+                </button>
             </div>
         </header>
     </div>
@@ -89,10 +89,10 @@
     <div class="hambuWindow-Area">
         <div class="hambuWindow-Header">
             <div class="hambuWindow-Back"><ion-icon name="chevron-back-outline"></ion-icon></div>
-            <div class="hambuCombo-Name"><h1>---</h1></div>
+            <div class="hambuCombo-Name"><h1></h1></div>
         </div>
         <div class="Container-Img-Description">
-            <div class="hambuCombo-Img">---<img src=""></div>
+            <div class="hambuCombo-Img"><img src=""></div>
             <div class="hambu-Combo-Description">---</div>
         </div>
         <div class="hambuHeader-Carne">
@@ -100,38 +100,35 @@
             <div class="Option"><p>Escolha 1 opção</p></div>
         </div>
         <div class="Escolha-do-Ponto">
-            <div class="Mal-Passado">
-                <h1>Mal Passado</h1>
-                <input type="radio">
-            </div>
-            <div class="Ao-Ponto">
-                <h1>Ao Ponto</h1>
-                <input type="radio">
-            </div>
-            <div class="Bem-Passado">
-                <h1>Bem Passado</h1>
-                <input type="radio">
-            </div>
+            <div>
+                <label>
+                  Mal Passado
+                  <input id="Mal_Pass" name="ponto" type="radio" value="S" />
+                </label>
+              </div>
+              <div>
+                <label>
+                  Ao Ponto
+                  <input id="Ao_Ponto" name="ponto" type="radio" value="S" />
+                </label>  
+              </div>
+              <div>
+                <label>
+                  Bem Passado
+                  <input id="Bem-Passado" name="ponto" type="radio" value="S" />
+                </label>
+              </div>
         </div>
-        <div class="header-add">
-            <div class="adicional"><h1>DESEJA ALGUM ADICIONAL?</h1></div>
-            <div class="maximo"><p>Escolha até 4 opções</p></div>
-        </div> 
-        <div class="container-add">
-            <div class="itens-add">
-                <div class="item-add-name">
-                    <h1>--</h1>
-                    <div class="item-preco">R$ </div>
-                </div>
-                
-                <input type="checkbox">
-            </div>
-        </div>
-        
 
-        <div class="add-bebida-header">
-            <div class="bebida"><input type="radio"></div>
+        <div class="enviar-carrinho">
+            <button>
+                <h1>Comprar</h1>
+            </button>
         </div>
+    </div>
+
+    <div class="bnt-cadastro">
+        <button></button>
     </div>
 
     
