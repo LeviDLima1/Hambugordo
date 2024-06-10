@@ -10,6 +10,16 @@ close_btn.addEventListener('click', () => {
     search_box.classList.remove('active');
 })
 
+document.querySelector('.bnt-cadastro').addEventListener('click', () => {
+
+    document.querySelector('.login-box').style.display = 'block'
+})
+
+document.querySelector('.login-back').addEventListener('click', () => {
+
+    document.querySelector('.login-box').style.display = 'none'
+})
+
 
 hambuJson.map((item, index) => {
     //console.log(item)
