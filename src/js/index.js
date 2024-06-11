@@ -20,6 +20,7 @@ document.querySelector('.login-back').addEventListener('click', () => {
     document.querySelector('.login-box').style.display = 'none'
 })
 
+document.querySelector('.container-produtos').style.display = 'none';
 
 hambuJson.map((item, index) => {
     //console.log(item)
@@ -27,7 +28,7 @@ hambuJson.map((item, index) => {
     let hambuItem = document.querySelector('.container-produtos').cloneNode(true)
     //console.log(hambuItem)
     
-    document.querySelector('.combos').append(hambuItem)
+    hambuItem.style.display = '';
     
     hambuItem.querySelector('.foto-produto img').src = item.img
     hambuItem.querySelector('.nome-produto').innerHTML = item.name
@@ -37,7 +38,6 @@ hambuJson.map((item, index) => {
 
     hambuItem.querySelector('.produto').addEventListener('click', (e) => {
         e.preventDefault()
-        console.log('Clicou na pizza')
 
         document.querySelector('.hambuCombo-Img img').src = item.img
         document.querySelector('.hambu-Combo-Description').innerHTML = item.description
@@ -46,8 +46,9 @@ hambuJson.map((item, index) => {
 
 
         document.querySelector('.hambuWindow-Area').style.display = 'block'
-    })
-
+    });
+    
+    document.querySelector('.combos').append(hambuItem);
 
     document.querySelector('.hambuWindow-Back').addEventListener('click', () => {
         document.querySelector('.hambuWindow-Area').style.display = 'none'
